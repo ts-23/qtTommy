@@ -5,10 +5,11 @@ import { Link } from "@repo/ui/link";
 function App() {
   return (
     <div className="container">
-      <h1 className="title">
-        Admin <br />
-        <span>Kitchen Sink</span>
+      <h1 className="text-3xl font-bold underline text-green-200">
+        Hello world!
       </h1>
+
+      <div className="w-100 h-100 bg-mint-500">asdasd</div>
       <CounterButton />
       <p className="description">
         Built With{" "}
